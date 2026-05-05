@@ -6,7 +6,7 @@ game_inventory = ['m', 'up', 'd', 'l', 'lup', 'ld', 'r', 'rup', 'rd']
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, "Играть будем в крестик нолик")
+    bot.send_message(message.chat.id, "Играть будем в крестик нолик, и это не обсуждается")
 
 @bot.message_handler(commands=['end'])
 def end(message):
